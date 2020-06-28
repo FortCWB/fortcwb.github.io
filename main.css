@@ -47,7 +47,7 @@ footer{
 /************* Main Section *************/
 .mainSection{
     display: flex;
-    width: fit-content;
+    width: 100vh;
     background-color: rgb(47, 132, 153);
     padding-top: 50px;
 }
@@ -120,24 +120,8 @@ h4{
 .educationImage{
     padding-left: 15px;
     padding-bottom: 15px;
-    max-width: 15vh;
-    max-height: 15vh;
-}
-
-/************* Contact *************/
-.contact{
-    display: flex;
-    background-color:rgb(99, 152, 165);
-    width: 100vh;
-    color: white;
-}
-.contactImage{
-    padding-left: 30px;
-    padding-bottom: 15px;
-    padding-right: 30px;
-    padding-top: 15px;
-    max-width: 15vh;
-    max-height: 15vh;
+    max-width: 12vh;
+    max-height: 12vh;
 }
 
 /************* Commom *************/
@@ -154,4 +138,20 @@ h4{
 .centralize{
     margin: auto;
     text-align: center;
+}
+
+@media only screen and (max-width: 360px) {
+    #topMenu{
+        background-color: rgb(36, 35, 35);
+        display: flex;
+        margin: 0;
+        top: 0;
+        position: fixed;
+        width: 10vw;
+        z-index: 10;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
 }
