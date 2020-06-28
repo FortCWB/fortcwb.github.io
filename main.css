@@ -36,7 +36,7 @@ footer{
     margin-right: auto;
 }
 #topMenu a:last-child{
-    padding-right: 5%;
+    padding-right: 10%;
 }
 #topMenu a:hover {
     background: rgb(135, 158, 165);
@@ -47,7 +47,7 @@ footer{
 /************* Main Section *************/
 .mainSection{
     display: flex;
-    width: 100vh;
+    width: fit-content;
     background-color: rgb(47, 132, 153);
     padding-top: 50px;
 }
@@ -68,7 +68,7 @@ footer{
     height: auto;
     padding: 15px;
     max-width: 30vh;
-    max-height: 40vh;
+    max-height: 60vh;
 }
 .whoAmIText{
     text-align: justify;
@@ -108,12 +108,6 @@ h4{
     transform: rotate(270deg);
     vertical-align: middle;
 }
-/************* Contact *************/
-.contact{
-    display: flex;
-    background-color:rgb(99, 152, 165);
-    width: 100vh;
-}
 
 /************* Education *************/
 .education{
@@ -121,6 +115,29 @@ h4{
     background-color:rgb(216, 204, 183);
     width: 100vh;
     text-align: justify;
+    color: rgb(47, 132, 153);
+}
+.educationImage{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    max-width: 15vh;
+    max-height: 15vh;
+}
+
+/************* Contact *************/
+.contact{
+    display: flex;
+    background-color:rgb(99, 152, 165);
+    width: 100vh;
+    color: white;
+}
+.contactImage{
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-top: 15px;
+    max-width: 15vh;
+    max-height: 15vh;
 }
 
 /************* Commom *************/
